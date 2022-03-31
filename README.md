@@ -1,4 +1,4 @@
-# Surface Reconstruction Benchmark
+# SCUTSurface
 
 This repository is the official experiment implementation of Surface Reconstruction Benchmark.
 
