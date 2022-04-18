@@ -34,19 +34,19 @@ SurfaceRecBenchamrk
 There is a `README.md` file in each subfolder that describes how to use each script.
 
 ### 1. Data
-Download the [Dataset]() and put it in the `data` folder
+Download the [Dataset](https://mailscuteducn-my.sharepoint.com/:f:/g/personal/201730254453_mail_scut_edu_cn/Em-Xehw0uHlMkj1XHRZWbT4BzWg4ssEV4aebZu6pOly2ew) and put it in the `data` folder
 - To synthetic point clouds yourself:
-    - To perform object-level synthetic scanning, please follow [instructions](build_dataset\scan_and_synthesis\object_level\README.md)
-    - To perform scene-level synthetic scanning, please follow [instructions](build_dataset\scan_and_synthesis\scene_level\README.md)
+    - To perform object-level synthetic scanning, please follow [instructions](build_dataset/scan_and_synthesis/object_level/README.md)
+    - To perform scene-level synthetic scanning, please follow [instructions](build_dataset/scan_and_synthesis/scene_level/README.md)
 - Or use the point clouds provided by us
-- To pre-processing the point clouds, please follow [instructions](build_dataset\preprocessing\README.md)
+- To pre-processing the point clouds, please follow [instructions](build_dataset/preprocessing/README.md)
 
 ### 2. Reconstruction Methods
 - Some surface reconstruction methods used in our paper
 - Optionally, see our [3D Surface Reconstruction Library](https://github.com/Gorilla-Lab-SCUT/3DRecon)
 
 ### 3. Evaluation Metrics
-To use the following evaluation metrics, please follow [instructions](metrics\README.md)
+To use the following evaluation metrics, please follow [instructions](metrics/README.md)
 - Vanilla metrics
     - Chamfer Distance (CD)
     - F-score
