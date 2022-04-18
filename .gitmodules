@@ -1,0 +1,27 @@
+[submodule "SAL"]
+	path = SAL
+	url = https://github.com/matanatz/SAL.git
+[submodule "IGR"]
+	path = IGR
+	url = https://github.com/amosgropp/IGR.git
+[submodule "LIG"]
+	path = LIG
+	url = https://github.com/tensorflow/graphics.git
+[submodule "Points2Surf"]
+	path = Points2Surf
+	url = https://github.com/ErlerPhilipp/points2surf.git
+[submodule "LIG_Pytorch"]
+	path = LIG_Pytorch
+	url = https://github.com/wnbzhao/Local-Implicit-Grid-Pytorch
+[submodule "IMLSNets"]
+	path = IMLSNets
+	url = https://github.com/Andy97/DeepMLS.git
+[submodule "DSE"]
+	path = DSE
+	url = https://github.com/mrakotosaon/dse-meshing.git
+[submodule "DeepSDF"]
+	path = DeepSDF
+	url = https://github.com/facebookresearch/DeepSDF
+[submodule "ONet"]
+	path = ONet
+	url = https://github.com/autonomousvision/occupancy_networks

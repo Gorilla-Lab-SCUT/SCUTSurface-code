@@ -1,0 +1,39 @@
+num_worker : 8     # Multiprocess
+
+#########################################
+#step 1:
+#########################################
+# Outler Removal Config
+pcl_outlier:
+    main : './bin/PCL_Preprocessing_Outlier_Removeo'
+
+    in_dir : 'DIR_TO_YOUR_INPUT'
+    out_dir : 'DIR_TO_YOUR_OUTPUT'
+
+    mean_k : 35
+    std_dev_mul : 5
+
+#########################################
+#step 2:
+#########################################
+# De-noising Config
+cgal_prepoce_jet:
+    main : './bin/cgal_Preprocessing'
+    
+    in_dir : 'DIR_TO_YOUR_INPUT'
+    out_dir : 'DIR_TO_YOUR_OUTPUT'
+
+    choosefun : 2
+    Argv4 : 18
+
+#########################################
+#step 3:
+#########################################
+# Re-sampling Config
+fps:
+    th : 0.4
+    num_worker : 1
+    device : 0
+
+    in_dir : 'DIR_TO_YOUR_INPUT'
+    out_dir : 'DIR_TO_YOUR_OUTPUT'
