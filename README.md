@@ -57,9 +57,9 @@ To use the following evaluation metrics, please follow [instructions](metrics/RE
 ## Citation
 If you find our work useful in your research, please consider citing:
 
-    @incollection{xxx,
-        author = {xxx},
-        booktitle = {xxx},
-        title = {xxx},
-        year = {2021}
+    @misc{2205.02413,
+        Author = {Zhangjin Huang and Yuxin Wen and Zihao Wang and Jinjuan Ren and Kui Jia},
+        Title = {Surface Reconstruction from Point Clouds: A Survey and a Benchmark},
+        Year = {2022},
+        Eprint = {arXiv:2205.02413},
     }
