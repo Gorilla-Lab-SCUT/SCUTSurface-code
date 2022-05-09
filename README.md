@@ -4,7 +4,7 @@
 
 This repository contains the official experiment implementation to the the paper `Surface Reconstruction Benchmark from point clouds: A Survey and a benchmark`.
 
-[[Paper]]() [[Dataset]](https://mailscuteducn-my.sharepoint.com/:f:/g/personal/201730254453_mail_scut_edu_cn/Em-Xehw0uHlMkj1XHRZWbT4BzWg4ssEV4aebZu6pOly2ew) [[Project Page]](https://Gorilla-Lab-SCUT.github.io/SurfaceReconstructionBenchmark)
+[[Paper]](https://arxiv.org/abs/2205.02413) [[Dataset]](https://mailscuteducn-my.sharepoint.com/:f:/g/personal/201730254453_mail_scut_edu_cn/Em-Xehw0uHlMkj1XHRZWbT4BzWg4ssEV4aebZu6pOly2ew) [[Project Page]](https://Gorilla-Lab-SCUT.github.io/SurfaceReconstructionBenchmark)
 
 
 ## File Organization
