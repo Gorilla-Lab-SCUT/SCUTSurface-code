@@ -8,7 +8,7 @@ The source surfaces are obtained from four databases, including the Thingi10k, t
 
 ## Generate the scanning list of objects name for batch scanning
 ```
-python get_viewpoints.py --In_Dir MESH_DIRECTORY/meshes [--split 8]
+python blensor_scan_filename.py --In_Dir MESH_DIRECTORY/meshes [--split 8]
 ```
 Optionally, if you want to split the file list, just set a positive integer number after `--split`, and `-1` means not split. After running the script, a list of scanned file names will be generated (i.e. `blensor_scan_list.txt`).
 
