@@ -43,7 +43,7 @@ Download the [Dataset](https://mailscuteducn-my.sharepoint.com/:f:/g/personal/20
 
 ### 2. Reconstruction Methods
 - Some surface reconstruction methods used in our paper
-- Optionally, see our [3D Surface Reconstruction Library](https://github.com/Gorilla-Lab-SCUT/3DRecon)
+- Optionally, see our [3D Surface Reconstruction Library](https://github.com/Gorilla-Lab-SCUT/3DRecon) (Coming Soon!!!) 
 
 ### 3. Evaluation Metrics
 To use the following evaluation metrics, please follow [instructions](metrics/README.md)
