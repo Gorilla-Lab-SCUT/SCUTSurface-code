@@ -1,0 +1,11 @@
+data
+config_win.yaml
+README_old.md
+exe
+MeshLabServer2020.07-linux.AppImage
+build_dataset/preprocessing/src/CGAL_Normal/build
+build_dataset/preprocessing/src/CGAL_Preprocess/build
+build_dataset/preprocessing/src/PCL/build
+build_dataset/preprocessing/bin
+reconstruction/classical_methods/bin
+reconstruction/classical_methods/src/CGAL/build
