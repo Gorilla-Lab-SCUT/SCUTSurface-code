@@ -2,7 +2,7 @@
 
 ![](teaser.png)
 
-This repository contains the official experiment implementation to the the paper `Surface Reconstruction Benchmark from point clouds: A Survey and a benchmark`.
+This repository contains the official experiment implementation to the the TPAMI-2024 paper `Surface Reconstruction Benchmark from point clouds: A Survey and a benchmark`.
 
 [[Paper]](https://arxiv.org/abs/2205.02413) [[Dataset]](https://drive.google.com/drive/folders/1-zPHmN6CylHdNVPjYXpK9_Cab-uLpqUM?usp=sharing) [[Project Page]](https://Gorilla-Lab-SCUT.github.io/SurfaceReconstructionBenchmark)
 
@@ -34,7 +34,7 @@ SurfaceRecBenchamrk
 There is a `README.md` file in each subfolder that describes how to use each script.
 
 ### 1. Data
-Download the [Dataset](https://mailscuteducn-my.sharepoint.com/:f:/g/personal/201730254453_mail_scut_edu_cn/Em-Xehw0uHlMkj1XHRZWbT4BzWg4ssEV4aebZu6pOly2ew) and put it in the `data` folder
+Download the [Dataset](https://drive.google.com/drive/folders/1-zPHmN6CylHdNVPjYXpK9_Cab-uLpqUM?usp=sharing) and put it in the `data` folder
 - To synthetic point clouds yourself:
     - To perform object-level synthetic scanning, please follow [instructions](build_dataset/scan_and_synthesis/object_level/README.md)
     - To perform scene-level synthetic scanning, please follow [instructions](build_dataset/scan_and_synthesis/scene_level/README.md)
@@ -57,9 +57,12 @@ To use the following evaluation metrics, please follow [instructions](metrics/RE
 ## Citation
 If you find our work useful in your research, please consider citing:
 
-    @misc{2205.02413,
-        Author = {Zhangjin Huang and Yuxin Wen and Zihao Wang and Jinjuan Ren and Kui Jia},
-        Title = {Surface Reconstruction from Point Clouds: A Survey and a Benchmark},
-        Year = {2022},
-        Eprint = {arXiv:2205.02413},
+    @ARTICLE{
+        scutsurf_huang,
+        author={Huang, ZhangJin and Wen, Yuxin and Wang, ZiHao and Ren, Jinjuan and Jia, Kui},
+        journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+        title={Surface Reconstruction from Point Clouds: A Survey and a Benchmark}, 
+        year={2024},
+        pages={1-20},
+        doi={10.1109/TPAMI.2024.3429209}
     }
